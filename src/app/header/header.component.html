@@ -1,0 +1,54 @@
+
+<nav class="navbar navbar-light bg-light navbar-expand-md sticky-top">
+<div class="container">
+
+    <a style="cursor: pointer;margin-right: 2%;">
+      <img class="img-fluid" src="assets/images/logo.jpg" alt="Armes" style="max-height: 50px" routerLink="**">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" (click)="isCollapsed = !isCollapsed"
+            [attr.aria-expanded]="!isCollapsed" aria-controls="collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="collapsibleNavbar" [ngbCollapse]="isCollapsed">
+      <ul class="nav navbar-nav">
+        <li routerLinkActive="active" class="nav-item" [routerLinkActiveOptions]= "{exact: true}"><a routerLink="./" class="nav-link">Home</a>
+        </li>
+        <li routerLinkActive="active" class="nav-item" ><a routerLink="/about" class="nav-link">O nas</a>
+        </li>
+        <li class="dropdown nav-item" appCustomDropdown>
+          <a style="cursor: pointer;" class="dropdown-toggle nav-link" role="button">
+            Oferta<span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu innera">
+            <li class="dropdown-item" routerLinkActive="active"><a style="cursor: pointer;" class="innera">Transformatory</a>
+            </li>
+            <li class="dropdown-item" routerLinkActive="active"><a style="cursor: pointer;" class="innera">Przepusty</a>
+            </li>
+            <li class="dropdown-item" routerLinkActive="active"><a style="cursor: pointer;" class="innera">Stacje transformatorowe</a>
+            </li>
+          </ul>
+        </li>
+        <li routerLinkActive="active" class="nav-item"><a routerLink="/realizations" class="nav-link">Realizacje</a>
+        </li>
+        <li routerLinkActive="active" class="nav-item"><a routerLink="/contact" class="nav-link">Kontakt</a>
+        </li>
+      </ul>
+      <ul class="nav ml-auto">
+        <li class="dropdown nav-item" appCustomDropdown>
+          <a style="cursor: pointer;" class="dropdown-toggle nav-link" role="button"><i class="fas fa-globe" style="color: blue;"></i><span style="color: blue;"> Language</span></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-item"><a style="cursor: pointer;" class="innera"><img class="img-fluid flag-icon" style="max-width:2em" src="assets/images/pl.jpg">  Polski</a>
+            </li>
+            <li class="dropdown-item"><a style="cursor: pointer;" class="innera"><img class="img-fluid flag-icon" style="max-width:2em" src="assets/images/uk.jpg">  English</a>
+            </li>
+            <li class="dropdown-item"><a style="cursor: pointer;" class="innera"><img class="img-fluid flag-icon" style="max-width:2em" src="assets/images/cz.jpg">  Český</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+
+</div>
+</nav>
+<!--<app-header-footer></app-header-footer>-->

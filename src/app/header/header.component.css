@@ -1,0 +1,15 @@
+.navbar-inner {
+  background:transparent;
+}
+.active {
+  font-weight: bold;
+  color: rgba(2,1,2,0.93);
+}
+a{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.innera{
+  font-size: 1em;
+}
+
