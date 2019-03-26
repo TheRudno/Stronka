@@ -2,40 +2,40 @@
 <nav class="navbar navbar-light bg-light navbar-expand-md sticky-top">
 <div class="container">
 
-    <a style="cursor: pointer;margin-right: 2%;">
+    <a style="cursor: pointer;margin-right: 2%;" class="nav-spaceing">
       <img class="img-fluid" src="assets/images/logo.jpg" alt="Armes" style="max-height: 50px" routerLink="**">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" (click)="isCollapsed = !isCollapsed"
-            [attr.aria-expanded]="!isCollapsed" aria-controls="collapsibleNavbar">
+            [attr.aria-expanded]="!isCollapsed" aria-controls="collapsibleNavbar" style="margin-top: 5%">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="navbar-collapse collapse" id="collapsibleNavbar" [ngbCollapse]="isCollapsed">
+    <div class="navbar-collapse collapse" id="collapsibleNavbar" [ngbCollapse]="isCollapsed" >
       <ul class="nav navbar-nav">
-        <li routerLinkActive="active" class="nav-item" [routerLinkActiveOptions]= "{exact: true}"><a routerLink="./" class="nav-link">Home</a>
+        <li routerLinkActive="active" class="nav-item nav-spaceing" [routerLinkActiveOptions]= "{exact: true}"><a routerLink="./" class="nav-link">Home</a>
         </li>
-        <li routerLinkActive="active" class="nav-item" ><a routerLink="/about" class="nav-link">O nas</a>
+        <li routerLinkActive="active" class="nav-item nav-spaceing" ><a routerLink="/about" class="nav-link">O nas</a>
         </li>
-        <li class="dropdown nav-item" appCustomDropdown>
-          <a style="cursor: pointer;" class="dropdown-toggle nav-link" role="button">
+        <li class="dropdown nav-item nav-spaceing" appCustomDropdown>
+          <a style="cursor: pointer;" class="dropdown-toggle nav-link" role="button" routerLink="/offer" routerLinkActive="active">
             Oferta<span class="caret"></span>
           </a>
           <ul class="dropdown-menu innera">
-            <li class="dropdown-item" routerLinkActive="active"><a style="cursor: pointer;" class="innera">Transformatory</a>
+            <li class="dropdown-item"><a style="cursor: pointer;" class="innera" routerLink="/offer/transformer">Transformatory</a>
             </li>
-            <li class="dropdown-item" routerLinkActive="active"><a style="cursor: pointer;" class="innera">Przepusty</a>
+            <li class="dropdown-item"><a style="cursor: pointer;" class="innera" routerLink="/offer/transformer">Przepusty</a>
             </li>
-            <li class="dropdown-item" routerLinkActive="active"><a style="cursor: pointer;" class="innera">Stacje transformatorowe</a>
+            <li class="dropdown-item"><a style="cursor: pointer;" class="innera" routerLink="/offer/housing">Stacje transformatorowe</a>
             </li>
           </ul>
         </li>
-        <li routerLinkActive="active" class="nav-item"><a routerLink="/realizations" class="nav-link">Realizacje</a>
+        <li routerLinkActive="active" class="nav-item nav-spaceing"><a routerLink="/realizations" class="nav-link">Realizacje</a>
         </li>
-        <li routerLinkActive="active" class="nav-item"><a routerLink="/contact" class="nav-link">Kontakt</a>
+        <li routerLinkActive="active" class="nav-item nav-spaceing"><a routerLink="/contact" class="nav-link">Kontakt</a>
         </li>
       </ul>
       <ul class="nav ml-auto">
         <li class="dropdown nav-item" appCustomDropdown>
-          <a style="cursor: pointer;" class="dropdown-toggle nav-link" role="button"><i class="fas fa-globe" style="color: blue;"></i><span style="color: blue;"> Language</span></a>
+          <a style="cursor: pointer;" class="dropdown-toggle nav-link" role="button" id="language"><i class="fas fa-globe" style="color: blue;"></i><span style="color: blue;"> Language</span></a>
           <ul class="dropdown-menu">
             <li class="dropdown-item"><a style="cursor: pointer;" class="innera"><img class="img-fluid flag-icon" style="max-width:2em" src="assets/images/pl.jpg">  Polski</a>
             </li>

@@ -1,12 +1,13 @@
 footer{
-  background-color: rgba(0,0,0,0.85);
-
-  background-color: rgba(17,58,167,0.93);
+  background-image: linear-gradient(to top left, rgba(8,112,173,0.92), rgba(17,58,167,0.93));
 
   color: white;
 
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+a{
+  color: white;
 }
 

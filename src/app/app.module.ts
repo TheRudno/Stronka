@@ -15,6 +15,10 @@ import { AboutComponent } from './about/about.component';
 import { RealizationsComponent } from './realizations/realizations.component';
 import { OurServicesComponent } from './home/our-services/our-services.component';
 import { ProductionComponent } from './home/production/production.component';
+import { OfferComponent } from './offer/offer.component';
+import { TransformerComponent } from './offer/transformer/transformer.component';
+import { HousingComponent } from './offer/housing/housing.component';
+import { LightboxModule } from 'ngx-lightbox';
 
 @NgModule({
   declarations: [
@@ -29,9 +33,13 @@ import { ProductionComponent } from './home/production/production.component';
     AboutComponent,
     RealizationsComponent,
     OurServicesComponent,
-    ProductionComponent
+    ProductionComponent,
+    OfferComponent,
+    TransformerComponent,
+    HousingComponent
   ],
   imports: [
+    LightboxModule,
     AppRoutingModule,
     NgbModule,
     BrowserModule

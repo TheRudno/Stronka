@@ -3,7 +3,7 @@
 }
 .active {
   font-weight: bold;
-  color: rgba(2,1,2,0.93);
+  color: black;
 }
 a{
   font-size: 1.2em;
@@ -11,9 +11,23 @@ a{
 }
 .innera{
   font-size: 1em;
+  color: #212529;
 }
 .dropdown-menu{
   background-color: #f1f4fa;
 }
+.nav-item{
+  color: blue;
+}
+.navbar-light .nav-link{
+  color: #666;
+}
+#language{
+  padding-left: 0;
+}
+.nav-spaceing{
+  padding-right: 30px;
+}
+
 
 
