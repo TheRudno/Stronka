@@ -19,6 +19,8 @@ import { OfferComponent } from './offer/offer.component';
 import { TransformerComponent } from './offer/transformer/transformer.component';
 import { HousingComponent } from './offer/housing/housing.component';
 import { LightboxModule } from 'ngx-lightbox';
+import { InsideComponent } from './offer/housing/inside/inside.component';
+import { OutsideComponent } from './offer/housing/outside/outside.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { LightboxModule } from 'ngx-lightbox';
     ProductionComponent,
     OfferComponent,
     TransformerComponent,
-    HousingComponent
+    HousingComponent,
+    InsideComponent,
+    OutsideComponent
   ],
   imports: [
     LightboxModule,

@@ -7,6 +7,8 @@ import { RealizationsComponent } from './realizations/realizations.component';
 import { OfferComponent } from './offer/offer.component';
 import { TransformerComponent } from './offer/transformer/transformer.component';
 import { HousingComponent } from './offer/housing/housing.component';
+import { InsideComponent } from './offer/housing/inside/inside.component';
+import { OutsideComponent } from './offer/housing/outside/outside.component';
 
 const routes: Routes = [
   {path: 'about', component: AboutComponent},
@@ -14,7 +16,10 @@ const routes: Routes = [
   {path: 'contact', component: ContactComponent },
   {path: 'offer', component: OfferComponent, children: [
       {path: 'transformer', component: TransformerComponent},
-      {path: 'housing', component: HousingComponent}
+      {path: 'housing', component: HousingComponent, children: [
+          {path: 'inside', component: InsideComponent},
+          {path: 'outside', component: OutsideComponent}
+        ]}
     ]},
   {path: '', component: HomeComponent},
   {path: '**', redirectTo: '', pathMatch: 'full'}

@@ -1,0 +1,37 @@
+
+<div class="container" *ngIf="router.url == '/offer/housing'">
+  <div class="row pt-5">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <h2>Obudowy stacji transformatorowych</h2>
+      <br>
+      <p class="text-justify">
+        Wykonujemy żelbetowe obudowy stacji transformatorowych. Obudowy wykonane są według indywidualnych potrzeb zamawiającego.
+        Prowadzimy doradztwo począwszy od koncepcji przez projekt do realizacji.
+        Obudowy spełniają wszystkie wymagania norm w zakresie przydatności do stosowania w energetyce, bezpieczeństwa oraz ochrony środowiska.
+        Istnieje również możliwość wykonania kompletacji obudów w urządzenia. Stosujemy rozwiązania czołowych producentów aparatury przesyłowo rozdzielczej.
+        Obudowy wykonywane są głównie w dwóch typach zastosowania:
+        <br><br>
+        - obudowy z obsługą zewnętrzną typu
+        <a style="cursor: pointer; color: blue; text-decoration: underline" routerLink="outside"> ARMES-Z</a>
+        <br>
+        - obudowy z obsługą wewnętrzną typu
+        <a style="cursor: pointer; color: blue; text-decoration: underline" routerLink="inside"> ARMES-W</a>
+        <br><br>
+        Na specjalne zamówienia projektujemy i wykonujemy obudowy ze ścianami oddzielenia p.poż. jak również obudowy stacji podziemnych, wieżowych, słupowych a nawet stacji piętrowych.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-4">
+      <img [src]="albums[0].thumb" class="img-fluid" (click)="open(0)">
+      <p class="text-center">ARMES-W</p>
+    </div>
+    <div class="col-md-4">
+      <img [src]="albums[1].thumb" class="img-fluid" (click)="open(1)">
+      <p class="text-center">ARMES-Z</p>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
