@@ -16,11 +16,15 @@ import { RealizationsComponent } from './realizations/realizations.component';
 import { OurServicesComponent } from './home/our-services/our-services.component';
 import { ProductionComponent } from './home/production/production.component';
 import { OfferComponent } from './offer/offer.component';
-import { TransformerComponent } from './offer/transformer/transformer.component';
 import { HousingComponent } from './offer/housing/housing.component';
 import { LightboxModule } from 'ngx-lightbox';
 import { InsideComponent } from './offer/housing/inside/inside.component';
 import { OutsideComponent } from './offer/housing/outside/outside.component';
+import { FeedthroughComponent } from './offer/feedthrough/feedthrough.component';
+import { TransformerComponent } from './offer/transformer/transformer.component';
+import { SpecialComponent } from './offer/housing/special/special.component';
+import { SwitchgearComponent } from './offer/switchgear/switchgear.component';
+
 
 @NgModule({
   declarations: [
@@ -37,10 +41,13 @@ import { OutsideComponent } from './offer/housing/outside/outside.component';
     OurServicesComponent,
     ProductionComponent,
     OfferComponent,
-    TransformerComponent,
     HousingComponent,
     InsideComponent,
-    OutsideComponent
+    OutsideComponent,
+    FeedthroughComponent,
+    TransformerComponent,
+    SpecialComponent,
+    SwitchgearComponent,
   ],
   imports: [
     LightboxModule,

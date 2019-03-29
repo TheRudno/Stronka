@@ -10,9 +10,9 @@ import { Router } from '@angular/router';
 })
 export class HousingComponent implements OnInit {
 
-  private albums: Array<{ src: string, caption: string, thumb: string }> = [];
+  public albums: Array<{ src: string, caption: string, thumb: string }> = [];
 
-  constructor(private lightbox: Lightbox, private router: Router) {
+  constructor(public lightbox: Lightbox, public router: Router) {
     let src = '../../../assets/images/housing/1.JPG';
     let caption = 'ARMES-W';
     let thumb = '../../../assets/images/housing/1.JPG';
@@ -23,12 +23,16 @@ export class HousingComponent implements OnInit {
     thumb = '../../../assets/images/housing/2.jpg';
     album = {src, caption, thumb};
     this.albums.push(album);
+    src = '../../../assets/images/housing/3.jpg';
+    caption = 'ARMES-S';
+    thumb = '../../../assets/images/housing/3.jpg';
+    album = {src, caption, thumb};
+    this.albums.push(album);
   }
 
   open(index: number): void {
     // open lightbox
     this.lightbox.open(this.albums, index);
-    console.log('opening');
   }
 
   close(): void {

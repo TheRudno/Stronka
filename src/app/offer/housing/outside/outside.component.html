@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="row pt-5">
+  <div class="row pt-5 pb-5">
     <div class="col-md-2"></div>
     <div class="col-md-8">
       <h2>Obudowy z obsługą zewnętrzną</h2>
@@ -14,6 +14,18 @@
         Możliwe jest też wykonanie stacji nawet z trzema ścianami oddzielenia przeciw pożarowego co daję możliwość posadowienia stacji blisko innych budynków lub granicy działki.
         W przypadku zainteresowania prosimy o kontakt z naszą firmą
       </p>
+      <div class="row pt-5">
+        <div class="col-md-4">
+          <img [src]="albums[0].thumb" class="img-fluid" (click)="open(0)" style="cursor: pointer">
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[1].thumb" class="img-fluid" (click)="open(1)" style="cursor: pointer">
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[2].thumb" class="img-fluid" (click)="open(2)" style="cursor: pointer">
+        </div>
+      </div>
     </div>
   </div>
 </div>
+

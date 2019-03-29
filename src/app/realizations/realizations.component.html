@@ -4,17 +4,19 @@
     <div class="row">
       <div class="col-md-4">
         <ul class="sidebarservices">
-          <li class="head">List of Services</li>
-          <li><a href="#">Networking Services</a></li>
-          <li><a href="#">Troubleshooting Services</a></li>
-          <li><a href="#">Internet Services</a></li>
-          <li><a href="#">Server Services</a></li>
-          <li><a href="#">Menu Item</a></li>
-          <li><a href="#">PC & Printer Repair Services</a></li>
-          <li><a href="#">And more...</a></li>
+          <li class="head">Przykładowe realizacje</li>
+          <li *ngFor="let offer of offerList; let i = index;" (click)="loadPictures(i)"><a style="cursor: pointer" [innerText]="offer.title"></a></li>
         </ul>
       </div>
       <div class="col-md-8">
+          <!--<h2 class="pt-2 mb-3">{{ title }}</h2>-->
+        <div *ngIf="index!=null">
+          <h2 class="pb-2" style="text-align: center; color: #666">{{ offerList[index].title }}</h2>
+          <div *ngFor="let picture of offerList[index].imgPathList;">
+            <img [src]="picture" [alt]="offerList[index].title" class="img-fluid">
+          </div>
+
+        </div>
 
       </div>
     </div>

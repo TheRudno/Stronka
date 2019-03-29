@@ -20,6 +20,17 @@
         Poniżej pokazano kilka rozwiązań:
         <br>
       </p>
+      <div class="row pt-3">
+        <div class="col-md-4">
+          <img [src]="albums[0].thumb" class="img-fluid" (click)="open(0)" style="cursor: pointer">
+        </div>
+        <div class="col-md-4 pl-5">
+          <img [src]="albums[2].thumb" class="img-fluid mx-auto d-block" (click)="open(2)" style="cursor: pointer; max-width: 67%">
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[1].thumb" class="img-fluid" (click)="open(1)" style="cursor: pointer">
+        </div>
+      </div>
     </div>
   </div>
 </div>
