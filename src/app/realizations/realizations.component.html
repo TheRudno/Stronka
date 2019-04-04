@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-md-4">
         <ul class="sidebarservices">
-          <li class="head">Przykładowe realizacje</li>
+          <li class="head" i18n>Przykładowe realizacje</li>
           <li *ngFor="let offer of offerList; let i = index;" (click)="loadPictures(i)"><a style="cursor: pointer" [innerText]="offer.title"></a></li>
         </ul>
       </div>

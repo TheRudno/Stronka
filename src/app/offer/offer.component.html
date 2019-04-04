@@ -1,34 +1,35 @@
-<router-outlet></router-outlet>
-<section class="our-webcoderskull padding-lg" *ngIf="router.url == '/offer'">
+<router-outlet *ngIf="router.url !== '/'"></router-outlet>
+<section class="our-webcoderskull padding-lg" *ngIf="router.url == '/offer' || router.url == '/'">
   <div class="container">
     <div class="row heading heading-icon">
       <h2>OFERTA</h2>
     </div>
     <ul class="row">
       <li class="col-12 col-md-6 col-lg-3">
-        <div class="cnt-block equal-hight" style="height: 300px; cursor: pointer;" routerLink="housing">
+        <div class="cnt-block equal-hight" style="height: 300px; cursor: pointer;" routerLink="/offer/housing">
           <figure><img src="../../assets/images/offer/offer1.jpg" class="img-responsive" alt=""></figure>
-          <h3 class="mt-4"><a style="cursor: pointer">Obudowy stacji</a></h3>
+          <h3 class="mt-4"><a style="cursor: pointer" i18n>Obudowy stacji</a></h3>
         </div>
       </li>
       <li class="col-12 col-md-6 col-lg-3">
-        <div class="cnt-block equal-hight" style="height: 300px; cursor: pointer;" routerLink="transformer">
+        <div class="cnt-block equal-hight" style="height: 300px; cursor: pointer;" routerLink="/offer/transformer">
           <figure><img src="../../assets/images/offer/offer2.jpg" class="img-responsive" alt=""></figure>
-          <h3 class="mt-4"><a style="cursor: pointer">Transforamtory</a></h3>
+          <h3 class="mt-4"><a style="cursor: pointer" i18n>Transformatory</a></h3>
         </div>
       </li>
       <li class="col-12 col-md-6 col-lg-3">
-        <div class="cnt-block equal-hight" style="height: 300px; cursor: pointer;" routerLink="feedthrough">
-          <figure><img src="../../assets/images/offer/offer3.jpg" class="img-responsive" alt=""></figure>
-          <h3 class="mt-4"><a style="cursor: pointer">Przepusty</a></h3>
-        </div>
-      </li>
-      <li class="col-12 col-md-6 col-lg-3">
-        <div class="cnt-block equal-hight" style="height: 300px;  cursor: pointer;" routerLink="switchgear">
+        <div class="cnt-block equal-hight" style="height: 300px;  cursor: pointer;" routerLink="/offer/switchgear">
           <figure><img src="../../assets/images/offer/offer4.jpg" class="img-responsive" alt=""></figure>
-          <h3 class="mt-4"><a style="cursor: pointer">Rozdzielnice</a></h3>
+          <h3 class="mt-4"><a style="cursor: pointer" i18n>Rozdzielnice</a></h3>
         </div>
       </li>
+      <li class="col-12 col-md-6 col-lg-3">
+        <div class="cnt-block equal-hight" style="height: 300px; cursor: pointer;" routerLink="/offer/feedthrough">
+          <figure><img src="../../assets/images/offer/offer3.jpg" class="img-responsive" alt=""></figure>
+          <h3 class="mt-4"><a style="cursor: pointer" i18n>System HAUFF-TECHNIK</a></h3>
+        </div>
+      </li>
+
     </ul>
   </div>
 </section>

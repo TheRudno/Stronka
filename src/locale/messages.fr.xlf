@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="15edb0e8c0a070ab8e6f4cafa4363e8de839b118" datatype="html">
+        <source>
+              Transforamtory
+            </source>
+            <target>Translacja </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/sidebar-offer/sidebar-offer.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f9701c33f433a81acd86293ffad5be592533c502" datatype="html">
+        <source>
+              Rozdzielnice
+            </source>
+            <target>Translacja </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/sidebar-offer/sidebar-offer.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1fc664d5b2308b8aea5480341d48dc1b2284a2fb" datatype="html">
+        <source>
+              System HAUFF-TECHNIK
+            </source>
+            <target>Translacja </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/sidebar-offer/sidebar-offer.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

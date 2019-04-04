@@ -1,10 +1,10 @@
 <div class="container">
   <div class="row pt-3">
-    <div class="col-md-2"></div>
+    <div class="col-md-3"><app-sidebar-offer></app-sidebar-offer></div>
     <div class="col-md-8">
-      <h2>Transformatory</h2>
+      <h2 i18n>Transformatory</h2>
       <br>
-      <p class="text-justify">
+      <p class="text-justify" i18n>
         Oferujemy Państwu możliwość zakupu transformatorów olejowych i
         żywicznych. Na Państwa życzenie transformatory dostarczamy osobno, wraz
         z obudową stacji z wykonanymi podłączeniami lub bez.
@@ -22,18 +22,15 @@
         Decydując się na skorzystanie z naszej oferty otrzymujecie Państwo
         gwarancje szybkiej dostawy urządzenia oraz konkurencyjną cenę.
       </p>
-      <div class="row pt-5 align-content-center">
-        <div class="col-md-3">
+      <div class="row pt-2 pb-2 align-content-center">
+        <div class="col-md-4">
           <img [src]="albums[0].thumb" class="img-fluid" (click)="open(0)" style="cursor: pointer">
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <img [src]="albums[1].thumb" class="img-fluid" (click)="open(1)" style="cursor: pointer">
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <img [src]="albums[2].thumb" class="img-fluid" (click)="open(2)" style="cursor: pointer">
-        </div>
-        <div class="col-md-3">
-          <img [src]="albums[3].thumb" class="img-fluid" (click)="open(3)" style="cursor: pointer">
         </div>
       </div>
     </div>

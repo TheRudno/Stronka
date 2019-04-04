@@ -24,6 +24,8 @@ import { FeedthroughComponent } from './offer/feedthrough/feedthrough.component'
 import { TransformerComponent } from './offer/transformer/transformer.component';
 import { SpecialComponent } from './offer/housing/special/special.component';
 import { SwitchgearComponent } from './offer/switchgear/switchgear.component';
+import { SidebarOfferComponent } from './offer/sidebar-offer/sidebar-offer.component';
+import { DropdownOnClickDirective } from './directives/dropdown/dropdown-on-click.directive';
 
 
 @NgModule({
@@ -48,6 +50,8 @@ import { SwitchgearComponent } from './offer/switchgear/switchgear.component';
     TransformerComponent,
     SpecialComponent,
     SwitchgearComponent,
+    SidebarOfferComponent,
+    DropdownOnClickDirective,
   ],
   imports: [
     LightboxModule,

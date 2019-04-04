@@ -14,17 +14,17 @@ export class InsideComponent implements OnInit {
   constructor(public lightbox: Lightbox, public router: Router) {
     let src = '../../../assets/images/housing/inside/1.jpg';
     let caption = '';
-    let thumb = '../../../assets/images/housing/inside/1.jpg';
+    let thumb = '../../../assets/images/housing/inside/thumb/1.jpg';
     let album = {src, caption, thumb};
     this.albums.push(album);
     src = '../../../assets/images/housing/inside/2.jpg';
     caption = '';
-    thumb = '../../../assets/images/housing/inside/2.jpg';
+    thumb = '../../../assets/images/housing/inside/thumb/2.jpg';
     album = {src, caption, thumb};
     this.albums.push(album);
     src = '../../../assets/images/housing/inside/3.jpg';
     caption = '';
-    thumb = '../../../assets/images/housing/inside/3.jpg';
+    thumb = '../../../assets/images/housing/inside/thumb/3.jpg';
     album = {src, caption, thumb};
     this.albums.push(album);
   }

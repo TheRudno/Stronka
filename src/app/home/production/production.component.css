@@ -105,7 +105,7 @@ section .section-title {
 
 .frontside .card,
 .backside .card {
-  min-height: 312px;
+  height: 312px;
 }
 
 
@@ -113,6 +113,8 @@ section .section-title {
 .backside .card .card-title {
   color: rgba(29,81,219,1) !important;
   font-weight: bold;
+  min-width: 312px;
+  padding-top: 30%;
 }
 
 .card-text {
@@ -131,3 +133,4 @@ section .section-title {
   bottom:0;
   text-align:center;
 }
+

@@ -1,11 +1,11 @@
 <div class="container">
   <div class="row pt-3">
-    <div class="col-md-2"></div>
+    <div class="col-md-3"><app-sidebar-offer></app-sidebar-offer></div>
     <div class="col-md-8">
-      <h2>Przepusty i uszczelnienia</h2>
+      <h2 i18n>Przepusty i uszczelnienia</h2>
       <br>
-      <p class="text-justify">
-        Oferujemy Państwu możliwość zakupu za pośrednictwem naszej firmy pełnego asortymentu przepustów i uszczelnień niemieckiej firmy Hauff-Technik.
+      <p class="text-justify" i18n>
+        Oferujemy Państwu możliwość zakupu za pośrednictwem naszej firmy pełnego asortymentu przepustów i uszczelnień niemieckiej firmy Hauff-Technik GmbH & Co. KG.
         W naszych wyrobach korzystamy z tego typu przepustów i zalecamy ich stosowanie.
         <br><br>
         Zastosowanie tych produktów zawsze daje łatwość montażu kabli rur itp. oraz  gwarancję wodo i gazo szczelności.
@@ -17,12 +17,15 @@
       <div class="row pt-5">
         <div class="col-md-4">
           <img [src]="albums[0].thumb" class="img-fluid" (click)="open(0)" style="cursor: pointer">
+          <p class="text-center">{{albums[0].caption}}</p>
         </div>
         <div class="col-md-4">
           <img [src]="albums[1].thumb" class="img-fluid" (click)="open(1)" style="cursor: pointer">
+          <p class="text-center">{{albums[1].caption}}</p>
         </div>
         <div class="col-md-4">
           <img [src]="albums[2].thumb" class="img-fluid" (click)="open(2)" style="cursor: pointer">
+          <p class="text-center">{{albums[2].caption}}</p>
         </div>
       </div>
     </div>

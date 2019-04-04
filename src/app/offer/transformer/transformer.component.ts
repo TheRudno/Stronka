@@ -14,22 +14,17 @@ export class TransformerComponent implements OnInit {
   constructor(public lightbox: Lightbox, public router: Router) {
     let src = '../../../assets/images/transformator/2.jpg';
     let caption = '';
-    let thumb = '../../../assets/images/transformator/2.jpg';
+    let thumb = '../../../assets/images/transformator/thumb/2.jpg';
     let album = {src, caption, thumb};
-    this.albums.push(album);
-    src = '../../../assets/images/transformator/1.jpg';
-    caption = '';
-    thumb = '../../../assets/images/transformator/1.jpg';
-    album = {src, caption, thumb};
     this.albums.push(album);
     src = '../../../assets/images/transformator/3.jpg';
     caption = '';
-    thumb = '../../../assets/images/transformator/3.jpg';
+    thumb = '../../../assets/images/transformator/thumb/3.jpg';
     album = {src, caption, thumb};
     this.albums.push(album);
     src = '../../../assets/images/transformator/4.jpg';
     caption = '';
-    thumb = '../../../assets/images/transformator/4.jpg';
+    thumb = '../../../assets/images/transformator/thumb/4.jpg';
     album = {src, caption, thumb};
     this.albums.push(album);
   }

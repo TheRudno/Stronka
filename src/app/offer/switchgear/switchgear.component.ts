@@ -14,17 +14,17 @@ export class SwitchgearComponent implements OnInit {
   constructor(public lightbox: Lightbox, public router: Router) {
     let src = '../../../assets/images/switchgear/1.jpg';
     let caption = '';
-    let thumb = '../../../assets/images/switchgear/1.jpg';
+    let thumb = '../../../assets/images/switchgear/thumb/1.jpg';
     let album = {src, caption, thumb};
     this.albums.push(album);
     src = '../../../assets/images/switchgear/2.jpg';
     caption = '';
-    thumb = '../../../assets/images/switchgear/2.jpg';
+    thumb = '../../../assets/images/switchgear/thumb/2.jpg';
     album = {src, caption, thumb};
     this.albums.push(album);
     src = '../../../assets/images/switchgear/3.jpg';
     caption = '';
-    thumb = '../../../assets/images/switchgear/3.jpg';
+    thumb = '../../../assets/images/switchgear/thumb/3.jpg';
     album = {src, caption, thumb};
     this.albums.push(album);
   }

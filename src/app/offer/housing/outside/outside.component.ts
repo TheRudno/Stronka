@@ -14,17 +14,17 @@ export class OutsideComponent implements OnInit {
   constructor(public lightbox: Lightbox, public router: Router) {
     let src = '../../../assets/images/housing/outside/1.jpg';
     let caption = '';
-    let thumb = '../../../assets/images/housing/outside/1.jpg';
+    let thumb = '../../../assets/images/housing/outside/thumb/1.jpg';
     let album = {src, caption, thumb};
     this.albums.push(album);
     src = '../../../assets/images/housing/outside/2.jpg';
     caption = '';
-    thumb = '../../../assets/images/housing/outside/2.jpg';
+    thumb = '../../../assets/images/housing/outside/thumb/2.jpg';
     album = {src, caption, thumb};
     this.albums.push(album);
     src = '../../../assets/images/housing/outside/3.jpg';
     caption = '';
-    thumb = '../../../assets/images/housing/outside/3.jpg';
+    thumb = '../../../assets/images/housing/outside/thumb/3.jpg';
     album = {src, caption, thumb};
     this.albums.push(album);
   }

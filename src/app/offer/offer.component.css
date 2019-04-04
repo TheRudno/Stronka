@@ -19,7 +19,7 @@ ul{
 .padding-lg {
   display: block;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
 }
 .practice-area.padding-lg {
   padding-bottom: 55px;
@@ -54,7 +54,6 @@ ul{
 
 .our-webcoderskull{
   background-color: #f1f4fa;
-  height: 74vh;
 }
 .our-webcoderskull .cnt-block{
   float:left;
@@ -78,7 +77,7 @@ ul{
 }
 .our-webcoderskull .cnt-block h3{
   color:#2a2a2a;
-  font-size:20px;
+  font-size:18px;
   font-weight:500;
   padding:6px 0;
   text-transform:uppercase;
