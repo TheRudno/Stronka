@@ -1,0 +1,61 @@
+
+<nav class="navbar navbar-light bg-light navbar-expand-md sticky-top">
+  <div class="container">
+
+    <a style="cursor: pointer;margin-right: 2%;" class="nav-spaceing">
+      <img class="img-fluid" src="assets/images/logo.jpg" alt="Armes" style="max-height: 50px" routerLink="./home">
+    </a>
+    <div class="navbar-toggler" data-toggle="collapse">
+      <img class="img-fluid flag-icon mr-2" routerLink="./../pl/home" style="max-width:1.4em;" src="assets/images/languages/pl.jpg" i18n>
+      <img class="img-fluid flag-icon mr-2" routerLink="./../en/home" style="max-width:1.4em;" src="assets/images/languages/uk.jpg" i18n>
+      <img class="img-fluid flag-icon mr-2" routerLink="./../cz/home" style="max-width:1.4em" src="assets/images/languages/cz.jpg" i18n>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" (click)="isCollapsed = !isCollapsed"
+            [attr.aria-expanded]="!isCollapsed" aria-controls="collapsibleNavbar" style="margin-top: 0%">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="collapsibleNavbar" [ngbCollapse]="isCollapsed" >
+      <ul class="nav navbar-nav">
+        <li routerLinkActive="active" class="nav-item nav-spaceing" [routerLinkActiveOptions]= "{exact: true}"><a routerLink="./home" class="nav-link" (click)="isCollapsed = true" i18n>Home</a>
+        </li>
+        <li routerLinkActive="active" class="nav-item nav-spaceing" ><a routerLink="./about" class="nav-link" (click)="isCollapsed = true" i18n>O nás</a>
+        </li>
+        <li class="dropdown nav-item nav-spaceing" appCustomDropdown>
+          <a style="cursor: pointer;" class="dropdown-toggle nav-link" role="button" routerLink="./offer" routerLinkActive="active" (click)="isCollapsed = true" i18n>
+            Nabídka <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu innera">
+            <li class="dropdown-item"><a style="cursor: pointer;" class="innera" routerLink="./offer/housing" (click)="isCollapsed = true" i18n>Skelety pro stanice </a>
+            </li>
+            <li class="dropdown-item"><a style="cursor: pointer;" class="innera" routerLink="./offer/transformer" (click)="isCollapsed = true" i18n>Transformátory</a>
+            </li>
+            <li class="dropdown-item"><a style="cursor: pointer;" class="innera" routerLink="./offer/switchgear" (click)="isCollapsed = true" i18n>Rozvaděče</a>
+            </li>
+            <li class="dropdown-item"><a style="cursor: pointer;" class="innera" routerLink="./offer/feedthrough" (click)="isCollapsed = true" i18n>Průchodky</a>
+            </li>
+          </ul>
+        </li>
+        <li routerLinkActive="active" class="nav-item nav-spaceing"><a routerLink="./realizations" class="nav-link" (click)="isCollapsed = true" i18n>Realizace</a>
+        </li>
+        <li routerLinkActive="active" class="nav-item nav-spaceing"><a routerLink="./contact" class="nav-link" (click)="isCollapsed = true" i18n>Kontakty</a>
+        </li>
+      </ul>
+      <ul class="nav ml-auto">
+        <li class="dropdown nav-item" appCustomDropdown>
+          <a style="cursor: pointer;" class="dropdown-toggle nav-link" role="button" id="language"><i class="fas fa-globe" style="color: blue;"></i><span style="color: blue;" i18n> Language</span></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-item" routerLink="./../pl/home"><a style="cursor: pointer;" class="innera"><img class="img-fluid flag-icon" style="max-width:2em" src="assets/images/languages/pl.jpg" i18n>  Polski</a>
+            </li>
+            <li class="dropdown-item" routerLink="./../en/home"><a style="cursor: pointer;" class="innera"><img class="img-fluid flag-icon" style="max-width:2em" src="assets/images/languages/uk.jpg" i18n>  English</a>
+            </li>
+            <li class="dropdown-item" routerLink="./../cz/home"><a style="cursor: pointer;" class="innera"><img class="img-fluid flag-icon" style="max-width:2em" src="assets/images/languages/cz.jpg" i18n>  Český</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+</nav>
+<!--<app-header-footer></app-header-footer>-->

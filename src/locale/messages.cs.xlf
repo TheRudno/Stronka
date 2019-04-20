@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="pl" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/alert/alert.d.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.d.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.d.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{getPercentValue()}}"/>%</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/progressbar/progressbar.d.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source>PM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source>AM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1814b9eeba7e123fb29c6f474a3ec4aee52accd5" datatype="html">
+        <source>O nas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c9d83c651ce0d08e67d54f113c4f7644994f03f3" datatype="html">
+        <source>
+            Oferta<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65364d4ec178057c02d5bba51073bc9eb1ab4522" datatype="html">
+        <source>Obudowy stacji transformatorowych</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/housing/housing.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1e85059b4e5297b18053b60d4c52642983f4e850" datatype="html">
+        <source>Transformatory</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/offer.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/transformer/transformer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="63189b2b012f6e583683ac12177145e8c69ad4da" datatype="html">
+        <source>Rozdzielnice</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/offer.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/switchgear/switchgear.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7f3477da28dc186145e9207c69218fec92324ac" datatype="html">
+        <source>Przepusty</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="27a9ce3f6006ece256d48893d927aa780e38e78b" datatype="html">
+        <source>Realizacje</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5bff2d8a45ff23d437ff3beff685c5abcf08d18e" datatype="html">
+        <source>Kontakt</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="66f72ce8ce0ef8ff762be14791dede68fb05fe30" datatype="html">
+        <source> Language</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="db379534cd32999dfc6789ac6c337cb6810543e7" datatype="html">
+        <source>© 2019 Copyright:
+    <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> armes.pl<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="22d74602435cc9cd6ba72e1a63ac43257e7117ea" datatype="html">
+        <source>FIRMA HANDLOWO-USŁUGOWA ARMES</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/contact.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3a96427d9b95ec18a7c52f56b890f6d3be00d35e" datatype="html">
+        <source>Zadzwoń</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/contact.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a99c59f71812ab5a23d45f9a6607aa543868314f" datatype="html">
+        <source>Lokalizacja</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/contact.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1169988a410a0b9ab03a2839af26b4d5624239fa" datatype="html">
+        <source>Bartosza Głowackiego 60a, 44-100 Gliwice </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/contact.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0b15bf6fa1e5bdabc9fde97a14bee63a5d5e62f6" datatype="html">
+        <source>email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/contact.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bc53a49e95fa643aaef2e710dbf044f40a349f7a" datatype="html">
+        <source>armes@armes.pl</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/contact.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9f05f47a6ae5edb4bb64065575033ada7310391b" datatype="html">
+        <source>
+            Firma Armes od ponad 10 lat świadczy usługi w sektorze elektroenergetycznym.
+            <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            Oferujemy dostawę betonowych obudów stacji transformatorowych jak również kompletnie wyposażone stacje.
+            Zajmujemy się również sprzedażą aparatury przesyłowo-rozdzielczej - średniego oraz niskiego napięcia,
+            transformatorów olejowych i suchych (nowych lub regenerowanych).
+            Oferujemy kompletne rozwiązania z zakresu uszczelnień firmy Hauff-Technik GmbH &amp; Co. KG,
+            które stosujemy również w naszych obudowach.
+            <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            Firma zajmuje się również wykonywaniem projektów elektrycznych oraz doradztwem z zakresu budowy
+            i doboru obudów betonowych stacji transformatorowych.
+            Prowadzimy także krótko i długoterminowy wynajem stacji transformatorowych.
+            <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            Działamy na rynku polskim jak i zagranicznym obejmującym głównie rynek czeski i słowacki,
+            na które posiadamy niezbędne atesty i dopuszczenia do stosowania naszych obudów.
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/about/about.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="22ef84c4d7832612ab518e3105f0da40812f168f" datatype="html">
+        <source>Przykładowe realizacje</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/realizations/realizations.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="84c151e989e1a281a3d6f61dcb09bf5331b9c778" datatype="html">
+        <source>Ponad 10 lat doświadczenia</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/our-services/our-services.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3338a8c170c449c1ac58313a7222b5ea48863816" datatype="html">
+        <source>Długoletnia działalność na polskim i zagranicznym rynku jest naszym dużym atutem.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/our-services/our-services.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7962a83f215d0cbf15e77454507f39acbcb1075b" datatype="html">
+        <source>Bezproblemowy kontakt</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/our-services/our-services.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fcc9f5490e9a2af77f68ef50d9265862eb24f101" datatype="html">
+        <source>Każdy klient jest traktowany indywidualnie, staramy się sprostać każdym wymaganiom.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/our-services/our-services.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="017142b37f221aedcf5039f114a1011f2571ee9f" datatype="html">
+        <source>Transport towarów</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/our-services/our-services.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ed2fdc19ffab088615bf6b4f8262188d66eb8cb" datatype="html">
+        <source>Zapewniamy trasport towarów (w tym wielkogabarytowych) wprost do klienta.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/our-services/our-services.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a36bc5adc195189df78fb96f331bc16f56749d26" datatype="html">
+        <source>Wsparcie techniczne</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/our-services/our-services.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="84e2d31c16de7c578c8dcfc79a8a9d9c0e17bb4e" datatype="html">
+        <source>Po dostarczeniu zapewniamy pełne wsparcie w procesie instalacji naszych produktów.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/our-services/our-services.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a88ffc9bd66073211da09cd982c5bbd280a32013" datatype="html">
+        <source>Nasze realizacje</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/production/production.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3618516869f79d66ea1dbb6be091155a94ea026b" datatype="html">
+        <source>Ostrava CH Futurum</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/production/production.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="04e9c78594071eceaac6cb538815163cccc27f13" datatype="html">
+        <source>Taouros Metal Zivitice</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/production/production.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="46c678ceeb35071837a830a90e1cf5128c5bec9f" datatype="html">
+        <source>Lidl Sternberk</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/production/production.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6e07b4e2584e10e13e8c498cd6532fe3015e1b63" datatype="html">
+        <source>Styroprofile Bruntal</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/production/production.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9a838d9f69fd13b543d58292d636bdd632a1d0cc" datatype="html">
+        <source>Visimpex Prerov</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/production/production.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6dd4c8bb267d876cfcee6c7738c39b26301bdda0" datatype="html">
+        <source>Bom Plast Ceska Trebova</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/production/production.component.html</context>
+          <context context-type="linenumber">155</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9e898a6559e3a0d133434664e42af3fe1328b9d3" datatype="html">
+        <source>Obudowy stacji</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/offer.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6d56d3d268e960cfa48becbd19bb003c9f29d79e" datatype="html">
+        <source>System HAUFF-TECHNIK</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/offer.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="68429a5abd55f301b1bd0b32c8ead3afe2c54f54" datatype="html">
+        <source>
+        Wykonujemy żelbetowe obudowy stacji transformatorowych. Obudowy wykonane są według indywidualnych potrzeb zamawiającego.
+        Prowadzimy doradztwo począwszy od koncepcji przez projekt do realizacji.
+        Obudowy spełniają wszystkie wymagania norm w zakresie przydatności do stosowania w energetyce, bezpieczeństwa oraz ochrony środowiska.
+        Stosujemy rozwiązania czołowych producentów aparatury przesyłowo rozdzielczej.
+        Istnieje również możliwość wykonania kompletacji obudowy w urządzenia i dostawy kompletnej stacji transformatorowej na miejsce przeznaczenia.
+        Obudowy wykonywane są głównie w dwóch typach zastosowania plus obudowy specjalne:
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        - obudowy z obsługą zewnętrzną typu
+        <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> ARMES-Z<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        - obudowy z obsługą wewnętrzną typu
+        <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/> ARMES-W<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        - obudowy specjalne
+        <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/> ARMES-S<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Na specjalne zamówienia projektujemy i wykonujemy obudowy ze ścianami oddzielenia p.poż. jak również obudowy stacji podziemnych, wieżowych, słupowych oraz stacji piętrowych.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/housing/housing.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e1e0a528088150b64540cf1d2a765f4c4e112dcf" datatype="html">
+        <source>Obudowy z obsługą wewnętrzną</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/housing/inside/inside.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="08c1cd704a07c52935bf6ebc35bb75eb3e1f55c7" datatype="html">
+        <source>
+        Obudowy stacji z obsługą wewnętrzną wykonane są z żelbetu w postaci monolitycznego odlewu budynku piwnicy oraz dachu.
+        W przypadku budynków  z obsługą wewnętrzną istnieje możliwość ich łączenia w zespół budynków np. na potrzeby GPZ-ów.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Przeznaczone są do instalacji jednego, dwóch lub więcej transformatorów w zależności od indywidualnych potrzeb zamawiającego.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Zapewniają idealne warunki pracy dla elektromonterów oraz dla osób serwisujących stacje
+        a także szybkość i łatwość instalacji na miejscu przeznaczenia.
+        Możliwe jest też wykonanie stacji  z trzema ścianami oddzielenia przeciw pożarowego co daje możliwość
+        posadowienia stacji blisko innych budynków lub granicy działki.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        W przypadku zainteresowania prosimy o kontakt z naszą firmą.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Poniżej pokazano kilka rozwiązań:
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/housing/inside/inside.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="36763986f925add1f4a7b4471b414a24bd275019" datatype="html">
+        <source>Obudowy z obsługą zewnętrzną</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/housing/outside/outside.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cd399fa81f4e641fe2b754ce60b563d4a704adeb" datatype="html">
+        <source>
+        Obudowy stacji z obsługą zewnętrzną wykonane są z żelbetu w postaci monolitycznego odlewu.
+        Obudowa składa się z dwóch elementów. Przeznaczone są do instalacji jednego lub dwóch transformatorów w zależności od indywidualnych potrzeb zamawiającego.
+        Posiadamy również rozwiązania dające możliwość instalacji rozdzielni średniego napięcia w izolacji powietrznej w tych budynkach.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Ich kompaktowa budowa zapewnia szybkość i łatwość instalacji na miejscu przeznaczenia.
+        Możliwe jest też wykonanie stacji nawet z trzema ścianami oddzielenia przeciw pożarowego co daje możliwość posadowienia stacji blisko innych budynków lub granicy działki.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        W przypadku zainteresowania prosimy o kontakt z naszą firmą.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/housing/outside/outside.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="494fc438cd42ee6c267a1861200b1e87bcaf5d54" datatype="html">
+        <source>Przepusty i uszczelnienia</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/feedthrough/feedthrough.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c4e5d21daa12a832ed531d7ea761ce033dbfe1dc" datatype="html">
+        <source>
+        Oferujemy Państwu możliwość zakupu za pośrednictwem naszej firmy pełnego asortymentu przepustów i uszczelnień niemieckiej firmy Hauff-Technik GmbH &amp; Co. KG.
+        W naszych wyrobach korzystamy z tego typu przepustów i zalecamy ich stosowanie.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Zastosowanie tych produktów zawsze daje łatwość montażu kabli rur itp. oraz  gwarancję wodo i gazo szczelności.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Do wyboru systemy uszczelnienia kabli, rur, przepusty do budynków oraz wiele innych.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Zapraszamy do zapoznania się z  katalogami na stronie producenta <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>https://www.hauff-technik.de/pl<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/feedthrough/feedthrough.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b32427498255e5d1c967a047727f4ed073457715" datatype="html">
+        <source>
+        Oferujemy Państwu możliwość zakupu transformatorów olejowych i
+        żywicznych. Na Państwa życzenie transformatory dostarczamy osobno, wraz
+        z obudową stacji z wykonanymi podłączeniami lub bez.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Dobór właściwego transformatora ma duży wpływ na późniejszą eksploatację
+        obiektu. Nie bez znaczenia również pozostaje również jakość
+        transformatorów oraz materiałów z których zostały wykonane.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Wpływa to bezpośrednio na koszty użytkowania, serwisowania oraz ochronę
+        środowiska. Dlatego oferowane przez nas transformatory pochodzą od
+        renomowanych producentów tych urządzeń.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        W swojej ofercie posiadamy również transformatory po wykonanej regeneracji.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Decydując się na skorzystanie z naszej oferty otrzymujecie Państwo
+        gwarancje szybkiej dostawy urządzenia oraz konkurencyjną cenę.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/transformer/transformer.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d519cadb957609ece06fa7a03a5807203eb3f316" datatype="html">
+        <source>Obudowy stacji - specjalne</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/housing/special/special.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02599f48e9cffc95a96973a10c00df76c3135516" datatype="html">
+        <source>
+        Wychodząc naprzeciw potrzebom klienta oferujemy nietypowe rozwiązania obudów stacji transformatorowych.
+        Należą do nich obudowy stacji podziemnych, wieżowych okrągłych typu słup reklamowy, a nawet stacje piętrowe.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Rozwiązania nietypowe stanowią dla nas wyzwanie i każdorazowo staramy się sprostać wymaganiom zamawiającego.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/housing/special/special.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="72fbc1d5c0d5d2d87d9acf689fe31a057e6a1042" datatype="html">
+        <source>
+        Zapraszamy do skorzystania z naszej oferty na rozdzielnice średniego
+        napięcia oraz niskiego napięcia.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Oferowane rozdzielnice pochodzą od renomowanych i cenionych producentów.
+        Rozdzielnice średniego napięcia oferujemy w izolacji powietrznej oraz w
+        SF6.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Pierwszy rodzaj to rozwiązanie tańsze dające możliwość dowolnej
+        konfiguracji pól.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Drugi rodzaj czyli w izolacji SF6 charakteryzuje się kompaktową budową
+        oraz niską awaryjnością.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Do rozdzielnic średniego napięcia oferujemy również pełen osprzęt
+        kablowy, przekładniki jak również serwis pogwarancyjny.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        W przypadku rozdzielnic niskiego napięcia istnieje możliwość zamówienia
+        rozdzielni wykonanej na ramie lub szafowej wg indywidualnych potrzeb.
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        Rozdzielnice wyposażane są według potrzeb zamawiającego w rozłącznik lub
+        wyłącznik główny oraz konkretną liczbę odpływów z możliwością miejsc
+        rezerwowych.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/switchgear/switchgear.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="70e26ef748dc2a8b0a65d94b52d8c89afbe97de2" datatype="html">
+        <source>
+              Obudowy stacji
+              <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/sidebar-offer/sidebar-offer.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="60dda1da78362dd5587aa942d2d5f33acca1bf68" datatype="html">
+        <source>
+                  <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                  Z obsługą zewnętrzną
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/sidebar-offer/sidebar-offer.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="699a9922f6628332a376503fc8e1d1d4536e4180" datatype="html">
+        <source>
+                  <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                  Z obsługą wewnętrzną
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/sidebar-offer/sidebar-offer.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="745df473eb9713936e9c6db21d485aaea98f5748" datatype="html">
+        <source>
+                  <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                  Specjalne
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/sidebar-offer/sidebar-offer.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="542713e07a333d902e3bf0e4341daf6ea784f0e1" datatype="html">
+        <source>
+              Transformatory
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/sidebar-offer/sidebar-offer.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f9701c33f433a81acd86293ffad5be592533c502" datatype="html">
+        <source>
+              Rozdzielnice
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/sidebar-offer/sidebar-offer.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1fc664d5b2308b8aea5480341d48dc1b2284a2fb" datatype="html">
+        <source>
+              System HAUFF-TECHNIK
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/offer/sidebar-offer/sidebar-offer.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

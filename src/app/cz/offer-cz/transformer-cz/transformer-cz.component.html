@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="row pt-3">
+    <div class="col-md-3"><app-siedebar-offer-cz></app-siedebar-offer-cz></div>
+    <div class="col-md-8">
+      <h2 i18n>Transformátory</h2>
+      <br>
+      <p class="text-justify" i18n>
+        Nabízíme Vám možnost zakoupení transformátorů olejových a suchých.
+        Na Vaše přání dodáváme transformátory zvlášť, spolu se skeletem stanice se zhotovenými přípojkami nebo bez nich.
+        <br><br>
+        Výběr vhodného transformátoru má velký vliv na pozdější provoz objektu.
+        Bez významu není ani kvalita transformátorů a materiálů, z nichž byly vyrobeny.
+        <br><br>
+        To má bezprostřední vliv na náklady provozování,
+        servisu a také na ochranu životního prostředí. Proto námi nabízené transformátory pocházejí od renomovaných výrobců těchto zařízení.
+        <br><br>
+        V naší nabídce máme rovněž transformátory repasované.
+        <br><br>
+        Pokud se rozhodnete využít naší nabídky, získáváte záruku rychlého dodání zařízení a bezkonkurenční cenu.
+      </p>
+      <div class="row pt-2 pb-2 align-content-center">
+        <div class="col-md-4">
+          <img [src]="albums[0].thumb" class="img-fluid" (click)="open(0)" style="cursor: pointer">
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[1].thumb" class="img-fluid" (click)="open(1)" style="cursor: pointer">
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[2].thumb" class="img-fluid" (click)="open(2)" style="cursor: pointer">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

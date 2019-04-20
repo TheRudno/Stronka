@@ -6,7 +6,7 @@ import { NavigationEnd, Router } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit{
+export class AppComponent implements OnInit {
 
   constructor(public router: Router) {
   }
@@ -18,5 +18,4 @@ export class AppComponent implements OnInit{
       window.scrollTo(0, 0);
     });
   }
-  title = 'strona';
 }

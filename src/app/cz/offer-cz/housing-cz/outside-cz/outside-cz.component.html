@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row pt-5 pb-5">
+    <div class="col-md-3"><app-siedebar-offer-cz></app-siedebar-offer-cz></div>
+    <div class="col-md-8">
+      <h2 i18n>Transformátorové stanice s vnější obsluhou</h2>
+      <br>
+      <p class="text-justify" i18n>
+        Skelety stanic s vnější obsluhou jsou zhotoveny ze železobetonu v podobě monolitického odlitku. Skelet se skládá ze dvou prvků.
+        Jsou určeny pro instalaci jednoho nebo dvou transformátorů v závislosti
+        na individuálních potřebách objednávajícího. Nabízíme rovněž řešení, která umožňují instalaci rozvaděče
+        vysokého napětí ve vzduchové izolaci v těchto budovách.
+        <br>
+        <br>
+        Jejich kompaktní stavba zaručuje rychlost a snadnost instalace na místě určení.
+        Je možné rovněž zhotovení stanice dokonce i se třemi oddělovacími protipožárními stěnami, což umožňuje usazení stanice blízko jiných budov nebo blízko hranice pozemku.
+        <br><br>
+        V případě zájmu, prosím, kontaktujte naši firmu.
+      </p>
+      <div class="row pt-5">
+        <div class="col-md-4">
+          <img [src]="albums[0].thumb" class="img-fluid" (click)="open(0)" style="cursor: pointer">
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[1].thumb" class="img-fluid" (click)="open(1)" style="cursor: pointer">
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[2].thumb" class="img-fluid" (click)="open(2)" style="cursor: pointer">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

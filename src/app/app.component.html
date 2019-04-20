@@ -5,27 +5,29 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 
-<body style=" background-color: #f1f4fa">
+<body style=" background-color: #f1f4fa; max-width: 98.35vw">
 
-<div class="container-fluid" style="padding: 0">
-    <app-header></app-header>
-  <div *ngIf="router.url !== '/'">
-    <app-header-footer></app-header-footer>
-  </div>
-  <div class="row">
-    <div class="container-fluid">
-      <div style="alignment: center; margin: 0 auto;" >
-        <!--<app-slider></app-slider>-->
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <router-outlet></router-outlet>
-    </div>
-  </div>
-</div>
+<router-outlet></router-outlet>
 
-<app-footer></app-footer>
-<div style="height: 80px" id="footerOffset"></div>
+<!--<div class="container-fluid" style="padding: 0">-->
+  <!--<app-header></app-header>-->
+  <!--<div *ngIf="router.url !== '/'">-->
+    <!--<app-header-footer></app-header-footer>-->
+  <!--</div>-->
+  <!--&lt;!&ndash;<div class="row">&ndash;&gt;-->
+    <!--&lt;!&ndash;<div class="container-fluid">&ndash;&gt;-->
+      <!--&lt;!&ndash;<div style="alignment: center; margin: 0 auto;" >&ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash;<app-slider></app-slider>&ndash;&gt;&ndash;&gt;-->
+      <!--&lt;!&ndash;</div>&ndash;&gt;-->
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+  <!--&lt;!&ndash;</div>&ndash;&gt;-->
+  <!--<div class="row">-->
+    <!--<div class="col-md-12">-->
+      <!--<router-outlet></router-outlet>-->
+    <!--</div>-->
+  <!--</div>-->
+
+  <!--<app-footer></app-footer>-->
+  <!--<div style="height: 80px" id="footerOffset"></div>-->
+<!--</div>-->
 </body>

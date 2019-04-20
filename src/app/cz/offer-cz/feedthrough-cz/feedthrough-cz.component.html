@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row pt-3">
+    <div class="col-md-3"><app-siedebar-offer-cz></app-siedebar-offer-cz></div>
+    <div class="col-md-8">
+      <h2 i18n>Systém těsnění Hauff Technik</h2>
+      <br>
+      <p class="text-justify" i18n>
+        Nabízíme Vám možnost zakoupení prostřednictvím naší firmy kompletního sortimentu průchodů a těsnění německé firmy Hauff-Technik GmbH & Co. KG.
+        U našich výrobků tohoto typu průchody používáme a jejich použití doporučujeme.
+        <br><br>
+        Použití těchto výrobků přináší vždy snadnost montáže kabelů potrubí atd. a záruku vodotěsnosti i plynotěsnosti.
+        <br><br>
+        Na výběr systémy utěsnění kabelů, potrubí, průchodů do budov a mnoho jiných.
+        <br><br>
+        Zveme k seznámení se s katalogy na stránkách výrobce <a href="https://www.hauff-technik.de/pl">https://www.hauff-technik.de/pl</a>
+      </p>
+      <div class="row pt-5">
+        <div class="col-md-4">
+          <img [src]="albums[0].thumb" class="img-fluid" (click)="open(0)" style="cursor: pointer">
+          <p class="text-center">{{albums[0].caption}}</p>
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[1].thumb" class="img-fluid" (click)="open(1)" style="cursor: pointer">
+          <p class="text-center">{{albums[1].caption}}</p>
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[2].thumb" class="img-fluid" (click)="open(2)" style="cursor: pointer">
+          <p class="text-center">{{albums[2].caption}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<section style=" min-height: 75vh; background-color: #f1f4fa;">
+  <div class="container" style="padding-top: 40px;">
+
+    <div class="row">
+      <div class="col-md-4">
+        <ul class="sidebarservices">
+          <li class="head" i18n>Příklady realizace</li>
+          <li *ngFor="let offer of offerList; let i = index;" (click)="loadPictures(i)"><a style="cursor: pointer" [innerText]="offer.title"></a></li>
+        </ul>
+      </div>
+      <div class="col-md-8">
+        <!--<h2 class="pt-2 mb-3">{{ title }}</h2>-->
+        <div *ngIf="index!=null">
+          <h2 class="pb-2" style="text-align: center; color: #666">{{ offerList[index].title }}</h2>
+          <div *ngFor="let picture of offerList[index].imgPathList;">
+            <img [src]="picture" [alt]="offerList[index].title" class="img-fluid">
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+

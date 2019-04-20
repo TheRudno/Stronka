@@ -1,0 +1,16 @@
+
+<div class="container-fluid" style="padding: 0; background-color: #f1f4fa;">
+  <app-header-cz></app-header-cz>
+  <div *ngIf="router.url !== '/cz'">
+    <app-header-footer></app-header-footer>
+  </div>
+  <div class="row">
+      <div class="col-md-12">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+</div>
+
+
+<app-footer></app-footer>
+<div style="height: 80px" id="footerOffset"></div>

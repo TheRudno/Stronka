@@ -1,0 +1,21 @@
+<div class="container" style="min-height: 73vh">
+  <div class="row pt-5 pb-5">
+    <div class="col-md-3"><app-siedebar-offer-cz></app-siedebar-offer-cz></div>
+    <div class="col-md-8">
+      <h2 i18n>Atypické transformátorové stanice </h2>
+      <br>
+      <p class="text-justify" i18n>
+        Ve snaze vyhovět potřebám klienta nabízíme netypická řešení skříní transformátorových stanic.
+        Patří k nim skříně stanic podzemních, věžových kulatých typu reklamní sloup, a dokonce i stanice patrové.
+        <br>
+        <br>
+        Netypická řešení pro nás představují výzvu a pokaždé se snažíme vyhovět požadavkům objednávajícího.
+      </p>
+      <div class="row pt-5">
+        <div class="col-md-4 mb-3" *ngFor="let album of albums; let i = index">
+          <img [src]="album.thumb" class="img-fluid mx-auto d-block" (click)="open(i)" style="cursor: pointer">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,47 @@
+<div class="container" *ngIf="router.url == '/cz/offer/housing'">
+  <div class="row pt-3">
+    <div class="col-md-3"><app-siedebar-offer-cz></app-siedebar-offer-cz></div>
+    <div class="col-md-8">
+      <h2 i18n>Skelety pro transformátorové stanice</h2>
+      <br>
+      <p class="text-justify" i18n>
+        Vyrábíme železobetonové skelety transformátorových stanic.
+        Skelety jsou vyrobeny dle individuálních potřeb objednávajícího.
+        Poskytujeme poradenství počínaje od konceptu přes projekt až po realizaci.
+        Skelety splňují všechny požadavky norem v oblasti způsobilosti pro použití v energetice, požadavky na
+        bezpečnost a ochranu životního prostředí. Uplatňujeme řešení předních výrobců elektrické a rozvodné aparatury.
+        Existuje také možnost zkompletování skeletu se zařízeními a dodání kompletní transformátorové stanice na místo určení.
+        Skelety jsou vyráběny hlavně ve dvou typech použití plus skelety speciální:
+        <br><br>
+        - skelety s vnější obsluhou typu
+        <a style="cursor: pointer; color: blue; text-decoration: underline" routerLink="outside"> ARMES-Z</a>
+        <br>
+        - skelety s vnitřní obsluhou typu
+        <a style="cursor: pointer; color: blue; text-decoration: underline" routerLink="inside"> ARMES-W</a>
+        <br>
+        - skelety speciální
+        <a style="cursor: pointer; color: blue; text-decoration: underline" routerLink="special"> ARMES-S</a>
+        <br><br>
+        Na speciální objednávky projektujeme a zhotovujeme skelety s oddělovacími protipožárními stěnami, jak rovněž skelety stanic podzemních, věžových, sloupových a patrových stanic.
+      </p>
+      <div class="row">
+        <div class="col-md-4">
+          <img [src]="albums[0].thumb" class="img-fluid" routerLink="inside" style="cursor: pointer">
+          <p class="text-center"><a style="cursor: pointer; color: blue; text-decoration: underline" routerLink="inside"> ARMES-W</a></p>
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[1].thumb" class="img-fluid" routerLink="outside" style="cursor: pointer">
+          <p class="text-center"><a style="cursor: pointer; color: blue; text-decoration: underline" routerLink="outside"> ARMES-Z</a></p>
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[2].thumb" class="img-fluid" routerLink="special" style="cursor: pointer">
+          <p class="text-center"><a style="cursor: pointer; color: blue; text-decoration: underline" routerLink="special"> ARMES-S</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
+
+
+
