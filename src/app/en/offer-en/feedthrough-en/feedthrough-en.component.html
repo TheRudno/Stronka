@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row pt-3">
+    <div class="col-md-3"><app-siedebar-offer-en></app-siedebar-offer-en></div>
+    <div class="col-md-8">
+      <h2 i18n>Hauff Technik sealing system</h2>
+      <br>
+      <p class="text-justify" i18n>
+        We offer the possibility of purchase of the full range of culverts and sealings of a German company Hauff-Technik GmbH & Co. KG. through the agency of our company.
+        We use this type of culverts and sealings in our products and we recommend their usage.
+        <br><br>
+        Application of these products always eases the installation of cables, pipes, etc., and a warranty  of water and gas tightness.
+        <br><br>
+        You can choose among sealing systems for cables, pipes, culverts for buildings and many more.
+        <br><br>
+        Please feel invited to familiarise yourself with catalogues which are available on the manufacturer’s website <a href="https://www.hauff-technik.de/pl">https://www.hauff-technik.de/pl</a>
+      </p>
+      <div class="row pt-5">
+        <div class="col-md-4">
+          <img [src]="albums[0].thumb" class="img-fluid" (click)="open(0)" style="cursor: pointer">
+          <p class="text-center">{{albums[0].caption}}</p>
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[1].thumb" class="img-fluid" (click)="open(1)" style="cursor: pointer">
+          <p class="text-center">{{albums[1].caption}}</p>
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[2].thumb" class="img-fluid" (click)="open(2)" style="cursor: pointer">
+          <p class="text-center">{{albums[2].caption}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

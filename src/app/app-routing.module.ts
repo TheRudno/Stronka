@@ -26,6 +26,19 @@ import { SpecialCzComponent } from './cz/offer-cz/housing-cz/special-cz/special-
 import { TransformerCzComponent } from './cz/offer-cz/transformer-cz/transformer-cz.component';
 import { SwitchgearCzComponent } from './cz/offer-cz/switchgear-cz/switchgear-cz.component';
 import { FeedthroughCzComponent } from './cz/offer-cz/feedthrough-cz/feedthrough-cz.component';
+import { EnComponent } from './en/en.component';
+import { HomeEnComponent } from './en/home-en/home-en.component';
+import { AboutEnComponent } from './en/about-en/about-en.component';
+import { RealizationsEnComponent } from './en/realizations-en/realizations-en.component';
+import { ContactEnComponent } from './en/contact-en/contact-en.component';
+import { OfferEnComponent } from './en/offer-en/offer-en.component';
+import { HousingEnComponent } from './en/offer-en/housing-en/housing-en.component';
+import { InsideEnComponent } from './en/offer-en/housing-en/inside-en/inside-en.component';
+import { OutsideEnComponent } from './en/offer-en/housing-en/outside-en/outside-en.component';
+import { SpecialEnComponent } from './en/offer-en/housing-en/special-en/special-en.component';
+import { TransformerEnComponent } from './en/offer-en/transformer-en/transformer-en.component';
+import { SwitchgearEnComponent } from './en/offer-en/switchgear-en/switchgear-en.component';
+import { FeedthroughEnComponent } from './en/offer-en/feedthrough-en/feedthrough-en.component';
 
 
 const routes: Routes = [
@@ -59,6 +72,22 @@ const routes: Routes = [
           {path: 'transformer', component: TransformerCzComponent},
           {path: 'switchgear', component: SwitchgearCzComponent},
           {path: 'feedthrough', component: FeedthroughCzComponent},
+        ]}
+    ]},
+  {path: 'en', component: EnComponent, children: [
+      {path: 'home', component: HomeEnComponent},
+      {path: 'about', component: AboutEnComponent},
+      {path: 'realizations', component: RealizationsEnComponent},
+      {path: 'contact', component: ContactEnComponent },
+      {path: 'offer', component: OfferEnComponent, children: [
+          {path: 'housing', component: HousingEnComponent, children: [
+              {path: 'inside', component: InsideEnComponent},
+              {path: 'outside', component: OutsideEnComponent},
+              {path: 'special', component: SpecialEnComponent}
+            ]},
+          {path: 'transformer', component: TransformerEnComponent},
+          {path: 'switchgear', component: SwitchgearEnComponent},
+          {path: 'feedthrough', component: FeedthroughEnComponent},
         ]}
     ]},
   {path: '', redirectTo: 'pl/home', pathMatch: 'full'},

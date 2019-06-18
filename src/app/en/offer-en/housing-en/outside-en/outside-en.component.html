@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row pt-5 pb-5">
+    <div class="col-md-3"><app-siedebar-offer-en></app-siedebar-offer-en></div>
+    <div class="col-md-8">
+      <h2 i18n>Transformer stations with external service</h2>
+      <br>
+      <p class="text-justify" i18n>
+        Containers of the stations with external service are made of reinforced concrete in the form of a monolithic cast.
+        The container consists of two elements. They are designed for installation of one or two transformers depending on individual needs of the client.
+        We also provide solutions which enable to install the medium-voltage switchgear in air insulation in these buildings.
+
+
+        <br>
+        <br>
+        Their compact design ensures quick and easy installation at the destination place. There is also possibility to
+        create a station with even three walls of fireproofing which enables setting the station near other buildings or on the plot line.
+        <br><br>
+        If you are interested in these solutions, please contact our company.
+      </p>
+      <div class="row pt-5">
+        <div class="col-md-4">
+          <img [src]="albums[0].thumb" class="img-fluid" (click)="open(0)" style="cursor: pointer">
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[1].thumb" class="img-fluid" (click)="open(1)" style="cursor: pointer">
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[2].thumb" class="img-fluid" (click)="open(2)" style="cursor: pointer">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

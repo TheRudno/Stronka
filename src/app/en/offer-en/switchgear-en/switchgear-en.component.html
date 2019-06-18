@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="row pt-3">
+    <div class="col-md-3"><app-siedebar-offer-en></app-siedebar-offer-en></div>
+    <div class="col-md-8">
+      <h2 i18n>Switchgears (VN and NN)</h2>
+      <br>
+      <p class="text-justify" i18n>
+        Please feel invited to acquaint yourself with our offer concerning low-voltage and medium voltage switchgears.
+        They come from prestigious and prised manufacturers. The medium-voltage switchgears  are offered in air insulation and in SF6.
+        <br><br>
+        The first one is a cheaper solution which enables any configuration of fields.
+        <br><br>
+        The second one – SF6 insulation – characterizes itself by a compact construction and low failure rate.
+        <br><br>
+        We offer full cables accessories, transformers and post-warranty service for medium-voltage switchgears.
+        <br><br>
+        As for low-voltage switchgears there is a possibility to order it on a frame or in a cabinet, according to individual needs.
+        <br><br>
+        The switchgears are equipped in a disconnector or main switch and a specific number of outflows with the possibility of reserve places - according to the client’s needs .
+      </p>
+      <div class="row">
+        <div class="col-md-4">
+          <img [src]="albums[0].thumb" class="img-fluid" (click)="open(0)" style="cursor: pointer">
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[1].thumb" class="img-fluid" (click)="open(1)" style="cursor: pointer">
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[2].thumb" class="img-fluid" (click)="open(2)" style="cursor: pointer">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="row pt-3">
+    <div class="col-md-3"><app-siedebar-offer-en></app-siedebar-offer-en></div>
+    <div class="col-md-8">
+      <h2 i18n>Transformers</h2>
+      <br>
+      <p class="text-justify" i18n>
+        We offer you possibility to buy oil and resin transformers. At your request, the transformers may be delivered separately,
+        together with the station container and with or without connections.
+        <br><br>
+        Selection of a good transformer has a big influence on further exploitation of the object.
+        The quality of transformers and the materials from which they are made is also of great importance.
+
+
+        <br><br>
+        It has a direct affect on exploitation costs, service costs and environment protection. Therefore, the transformers we offer are from renowned manufacturers of such devices.
+        <br><br>
+
+        In our offer you will also find regenerated transformers.
+
+        <br><br>
+        Choosing our offer ensures the warranty of quick delivery and competitive price.
+      </p>
+      <div class="row pt-2 pb-2 align-content-center">
+        <div class="col-md-4">
+          <img [src]="albums[0].thumb" class="img-fluid" (click)="open(0)" style="cursor: pointer">
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[1].thumb" class="img-fluid" (click)="open(1)" style="cursor: pointer">
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[2].thumb" class="img-fluid" (click)="open(2)" style="cursor: pointer">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,43 @@
+<div class="container" *ngIf="router.url == '/en/offer/housing'">
+  <div class="row pt-3">
+    <div class="col-md-3"><app-siedebar-offer-en></app-siedebar-offer-en></div>
+    <div class="col-md-8">
+      <h2 i18n>Transformer stations containers</h2>
+      <br>
+      <p class="text-justify" i18n>
+        We create transformer stations containers made of reinforced concrete. They are conducted according to individual needs of the client. We provide consultancy starting from the concept, through design up to realisation. The containers meet all requirements in the field of suitability for use in energetics, safety and environment protection.
+        We use solutions of the leading manufacturers of transmission and distribution systems for switch rooms. There is also a possibility of picking the container into the device and delivery of a complete transformer station to the place of destination. The containers are produced mainly in two types of usage, plus special  containers:
+
+        <br><br>
+        - containers with external service, type
+        <a style="cursor: pointer; color: blue; text-decoration: underline" routerLink="outside"> ARMES-Z</a>
+        <br>
+        - containers with internal service, type
+        <a style="cursor: pointer; color: blue; text-decoration: underline" routerLink="inside"> ARMES-W</a>
+        <br>
+        - special  containers
+        <a style="cursor: pointer; color: blue; text-decoration: underline" routerLink="special"> ARMES-S</a>
+        <br><br>
+        We design and execute containers with fireproof walls, underground, tower, column and bunker stations containers on special order.
+      </p>
+      <div class="row">
+        <div class="col-md-4">
+          <img [src]="albums[0].thumb" class="img-fluid" routerLink="inside" style="cursor: pointer">
+          <p class="text-center"><a style="cursor: pointer; color: blue; text-decoration: underline" routerLink="inside"> ARMES-W</a></p>
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[1].thumb" class="img-fluid" routerLink="outside" style="cursor: pointer">
+          <p class="text-center"><a style="cursor: pointer; color: blue; text-decoration: underline" routerLink="outside"> ARMES-Z</a></p>
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[2].thumb" class="img-fluid" routerLink="special" style="cursor: pointer">
+          <p class="text-center"><a style="cursor: pointer; color: blue; text-decoration: underline" routerLink="special"> ARMES-S</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
+
+
+

@@ -43,6 +43,22 @@ import { InsideCzComponent } from './cz/offer-cz/housing-cz/inside-cz/inside-cz.
 import { OutsideCzComponent } from './cz/offer-cz/housing-cz/outside-cz/outside-cz.component';
 import { SpecialCzComponent } from './cz/offer-cz/housing-cz/special-cz/special-cz.component';
 import { FeedthroughCzComponent } from './cz/offer-cz/feedthrough-cz/feedthrough-cz.component';
+import { EnComponent } from './en/en.component';
+import { AboutEnComponent } from './en/about-en/about-en.component';
+import { ContactEnComponent } from './en/contact-en/contact-en.component';
+import { HeaderEnComponent } from './en/header-en/header-en.component';
+import { HomeEnComponent } from './en/home-en/home-en.component';
+import { OfferEnComponent } from './en/offer-en/offer-en.component';
+import { RealizationsEnComponent } from './en/realizations-en/realizations-en.component';
+import { OurServicesEnComponent } from './en/home-en/our-services-en/our-services-en.component';
+import { HousingEnComponent } from './en/offer-en/housing-en/housing-en.component';
+import { SiedebarOfferEnComponent } from './en/offer-en/siedebar-offer-en/siedebar-offer-en.component';
+import { SwitchgearEnComponent } from './en/offer-en/switchgear-en/switchgear-en.component';
+import { TransformerEnComponent } from './en/offer-en/transformer-en/transformer-en.component';
+import { InsideEnComponent } from './en/offer-en/housing-en/inside-en/inside-en.component';
+import { OutsideEnComponent } from './en/offer-en/housing-en/outside-en/outside-en.component';
+import { SpecialEnComponent } from './en/offer-en/housing-en/special-en/special-en.component';
+import { FeedthroughEnComponent } from './en/offer-en/feedthrough-en/feedthrough-en.component';
 
 
 @NgModule({
@@ -86,6 +102,24 @@ import { FeedthroughCzComponent } from './cz/offer-cz/feedthrough-cz/feedthrough
     OutsideCzComponent,
     SpecialCzComponent,
     FeedthroughCzComponent,
+
+
+    EnComponent,
+    AboutEnComponent,
+    ContactEnComponent,
+    HeaderEnComponent,
+    HomeEnComponent,
+    OfferEnComponent,
+    RealizationsEnComponent,
+    OurServicesEnComponent,
+    HousingEnComponent,
+    SiedebarOfferEnComponent,
+    SwitchgearEnComponent,
+    TransformerEnComponent,
+    InsideEnComponent,
+    OutsideEnComponent,
+    SpecialEnComponent,
+    FeedthroughEnComponent,
   ],
   imports: [
     LightboxModule,

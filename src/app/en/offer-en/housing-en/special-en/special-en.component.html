@@ -1,0 +1,21 @@
+<div class="container" style="min-height: 73vh">
+  <div class="row pt-5 pb-5">
+    <div class="col-md-3"><app-siedebar-offer-en></app-siedebar-offer-en></div>
+    <div class="col-md-8">
+      <h2 i18n>Atypical transformer stations </h2>
+      <br>
+      <p class="text-justify" i18n>
+        In order to meet the client’s needs we offer atypical solutions for transformer stations containers.
+        These include containers for underground stations, circle-towered like advertising poles and even bunk stations.
+        <br>
+        <br>
+        Atypical solutions are a challenge and we do our best to meet the client’s expectations any time.
+      </p>
+      <div class="row pt-5">
+        <div class="col-md-4 mb-3" *ngFor="let album of albums; let i = index">
+          <img [src]="album.thumb" class="img-fluid mx-auto d-block" (click)="open(i)" style="cursor: pointer">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

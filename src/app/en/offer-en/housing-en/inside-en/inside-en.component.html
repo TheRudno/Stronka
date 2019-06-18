@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="row pt-5">
+    <div class="col-md-3"><app-siedebar-offer-en></app-siedebar-offer-en></div>
+    <div class="col-md-8">
+      <h2 i18n>Transformer stations with internal service	 </h2>
+      <br>
+      <p class="text-justify" i18n>
+        Containers of the stations with internal service are made of reinforced concrete in the form of a monolithic cast of a cellar and a roof of a building.
+        In case of the buildings with internal service there is a possibility to combine them into a set of buildings, e.g. for the need of main power supply points.
+        <br><br>
+        They are designed for installation of one, two or more transformers depending on the individual needs of the client.
+
+
+        <br><br>
+        They ensure ideal working conditions for wiremen and people servicing the stations as well as quickness and easiness of installation at the destination place. There is also possibility to create a station with even three walls of fireproofing which enables setting the station near other buildings or on the plot line.
+        <br><br>
+        If you are interested in these solutions, please contact our company.
+        <br>
+        Some of solutions are showed below.
+        <br>
+      </p>
+      <div class="row pt-3">
+        <div class="col-md-4">
+          <img [src]="albums[0].thumb" class="img-fluid" (click)="open(0)" style="cursor: pointer">
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[2].thumb" class="img-fluid" (click)="open(2)" style="cursor: pointer;">
+        </div>
+        <div class="col-md-4">
+          <img [src]="albums[1].thumb" class="img-fluid" (click)="open(1)" style="cursor: pointer">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,62 @@
+<!-- Main sidebar -->
+<div id="sidebar-main" class="sidebar sidebar-default sidebar-separate sidebar-fixed" style="padding-top: 0; margin-top: 0">
+  <div class="sidebar-content">
+    <!-- /Sidebar Category -->
+    <div class="sidebar-category sidebar-default">
+      <div class="category-title">
+        <span>OFFER</span>
+      </div>
+      <div class="category-content">
+        <ul id="fruits-nav" class="nav flex-column">
+
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="other-gg" routerLink="/cz/offer/housing"
+               routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" i18n>
+              Transformer stations containers
+              <span class="fas fa-caret-down pt-1" style="float: right;"></span>
+            </a>
+            <ul id="other-gg" class="flex-column collapse dropdown-tg" [ngClass]="{'show' : router.url.includes('housing')}">
+              <li class="nav-item">
+                <a style="cursor: pointer" class="nav-link" routerLink="/cz/offer/housing/outside" routerLinkActive="active" i18n>
+                  <i class="fa fa-pencil" aria-hidden="true"></i>
+                  With external service
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a style="cursor: pointer" class="nav-link" routerLink="/cz/offer/housing/inside" routerLinkActive="active" i18n>
+                  <i class="fa fa-pencil" aria-hidden="true"></i>
+                  With internal service
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a style="cursor: pointer" class="nav-link" routerLink="/cz/offer/housing/special" routerLinkActive="active" i18n>
+                  <i class="fa fa-pencil" aria-hidden="true"></i>
+                  Atypical
+                </a>
+              </li>
+            </ul>
+            <!-- /Sub Nav -->
+          </li>
+
+          <li class="nav-item">
+            <a style="cursor: pointer" class="nav-link" routerLink="/cz/offer/transformer" routerLinkActive="active" i18n>
+              Transformers
+            </a>
+          </li>
+          <li class="nav-item">
+            <a style="cursor: pointer" class="nav-link" routerLink="/cz/offer/switchgear" routerLinkActive="active" i18n>
+              Switchgears (VN and NN)
+            </a>
+          </li>
+          <li class="nav-item">
+            <a style="cursor: pointer" class="nav-link" routerLink="/cz/offer/feedthrough" routerLinkActive="active" i18n>
+              Hauff Technik sealing
+            </a>
+          </li>
+        </ul>
+        <!-- /Nav -->
+      </div>
+      <!-- /Category Content -->
+    </div>
+  </div>
+</div>
