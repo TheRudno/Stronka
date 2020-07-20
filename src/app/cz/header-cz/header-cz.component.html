@@ -40,22 +40,21 @@
         <li routerLinkActive="active" class="nav-item nav-spaceing"><a routerLink="./contact" class="nav-link" (click)="isCollapsed = true" i18n>Kontakty</a>
         </li>
       </ul>
-      <ul class="nav ml-auto">
-        <li class="dropdown nav-item" appCustomDropdown>
-          <a style="cursor: pointer;" class="dropdown-toggle nav-link" role="button" id="language"><i class="fas fa-globe" style="color: blue;"></i><span style="color: blue;" i18n> Language</span></a>
-          <ul class="dropdown-menu">
-            <li class="dropdown-item" routerLink="./../pl/home"><a style="cursor: pointer;" class="innera"><img class="img-fluid flag-icon" style="max-width:2em" src="assets/images/languages/pl.jpg" i18n>  Polski</a>
-            </li>
-            <li class="dropdown-item" routerLink="./../en/home"><a style="cursor: pointer;" class="innera"><img class="img-fluid flag-icon" style="max-width:2em" src="assets/images/languages/uk.jpg" i18n>  English</a>
-            </li>
-            <li class="dropdown-item" routerLink="./../cz/home"><a style="cursor: pointer;" class="innera"><img class="img-fluid flag-icon" style="max-width:2em" src="assets/images/languages/cz.jpg" i18n>  Český</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-
+      <div class="d-none d-lg-block ml-auto">
+        <ul class="nav">
+          <li class="ml-2" routerLink="../pl/home"><a style="cursor: pointer;" class="innera" routerLink="../pl/home"><img
+            class="img-fluid flag-icon" style="max-width:2em" src="assets/images/languages/pl.jpg" i18n></a>
+          </li>
+          <li class="ml-2" routerLink="../en/home"><a style="cursor: pointer;" class="innera" routerLink="../en/home"><img
+            class="img-fluid flag-icon" style="max-width:2em" src="assets/images/languages/uk.jpg" i18n></a>
+          </li>
+          <li class="ml-2" routerLink="../cz/home"><a style="cursor: pointer;" class="innera" routerLink="../cz/home"><img
+            class="img-fluid flag-icon" style="max-width:2em" src="assets/images/languages/cz.jpg" i18n></a>
+          </li>
+        </ul>
+      </div>
     </div>
 
   </div>
 </nav>
-<!--<app-header-footer></app-header-footer>-->
+

@@ -42,52 +42,52 @@ import { FeedthroughEnComponent } from './en/offer-en/feedthrough-en/feedthrough
 
 
 const routes: Routes = [
-  {path: 'pl', component: PlComponent, children: [
-    {path: 'home', component: HomeComponent},
-    {path: 'about', component: AboutComponent},
-    {path: 'realizations', component: RealizationsComponent},
-    {path: 'contact', component: ContactComponent },
-    {path: 'offer', component: OfferComponent, children: [
-        {path: 'housing', component: HousingComponent, children: [
-            {path: 'inside', component: InsideComponent},
-            {path: 'outside', component: OutsideComponent},
-            {path: 'special', component: SpecialComponent}
-          ]},
-        {path: 'feedthrough', component: FeedthroughComponent},
-        {path: 'transformer', component: TransformerComponent},
-        {path: 'switchgear', component: SwitchgearComponent}
-      ]}
-    ]},
-  {path: 'cz', component: CzComponent, children: [
-      {path: 'home', component: HomeCzComponent},
-      {path: 'about', component: AboutCzComponent},
-      {path: 'realizations', component: RealizationsCzComponent},
-      {path: 'contact', component: ContactCzComponent },
-      {path: 'offer', component: OfferCzComponent, children: [
-          {path: 'housing', component: HousingCzComponent, children: [
-              {path: 'inside', component: InsideCzComponent},
-              {path: 'outside', component: OutsideCzComponent},
-              {path: 'special', component: SpecialCzComponent}
+  {path: 'pl', component: PlComponent, data: {title: 'Armes - Home'}, children: [
+      {path: 'home', component: HomeComponent, data: {title: 'Armes - Home'}},
+      {path: 'about', component: AboutComponent, data: {title: 'O nas'}},
+      {path: 'realizations', component: RealizationsComponent, data: {title: 'Realizacje'}},
+      {path: 'contact', component: ContactComponent, data: {title: 'Kontakt'}},
+      {path: 'offer', component: OfferComponent, data: {title: 'Oferta'},  children: [
+          {path: 'housing', component: HousingComponent, data: {title: 'Obudowy stacji transformatorowych'}, children: [
+              {path: 'inside', component: InsideComponent, data: {title: 'Obudowy stacji z obsługą wewnętrzną'}},
+              {path: 'outside', component: OutsideComponent, data: {title: 'Obudowy stacji z obsługą zewnętrzną'}},
+              {path: 'special', component: SpecialComponent, data: {title: 'Specjalne obudowy stacji'}}
             ]},
-          {path: 'transformer', component: TransformerCzComponent},
-          {path: 'switchgear', component: SwitchgearCzComponent},
-          {path: 'feedthrough', component: FeedthroughCzComponent},
+          {path: 'transformer', component: TransformerComponent, data: {title: 'Transformatory'}},
+          {path: 'switchgear', component: SwitchgearComponent, data: {title: 'Rozdzielnice'}},
+          {path: 'feedthrough', component: FeedthroughComponent, data: {title: 'Przepusty i uszczelnienia Hauff Technik'}},
         ]}
     ]},
-  {path: 'en', component: EnComponent, children: [
-      {path: 'home', component: HomeEnComponent},
-      {path: 'about', component: AboutEnComponent},
-      {path: 'realizations', component: RealizationsEnComponent},
-      {path: 'contact', component: ContactEnComponent },
-      {path: 'offer', component: OfferEnComponent, children: [
-          {path: 'housing', component: HousingEnComponent, children: [
-              {path: 'inside', component: InsideEnComponent},
-              {path: 'outside', component: OutsideEnComponent},
-              {path: 'special', component: SpecialEnComponent}
+  {path: 'cz', component: CzComponent, data: {title: 'Armes - Home'}, children: [
+      {path: 'home', component: HomeCzComponent, data: {title: 'Armes - Home'}},
+      {path: 'about', component: AboutCzComponent, data: {title: 'O nás'}},
+      {path: 'realizations', component: RealizationsCzComponent, data: {title: 'Realizace'}},
+      {path: 'contact', component: ContactCzComponent, data: {title: 'Kontakty'}},
+      {path: 'offer', component: OfferCzComponent, data: {title: 'Nabídka'},  children: [
+          {path: 'housing', component: HousingCzComponent, data: {title: 'Skelety pro stanice'}, children: [
+              {path: 'inside', component: InsideCzComponent, data: {title: 'Skelety pro stanice s vnitřní obsluhou'}},
+              {path: 'outside', component: OutsideCzComponent, data: {title: 'Skelety pro stanice s vnější obsluhou'}},
+              {path: 'special', component: SpecialCzComponent, data: {title: 'Skelety pro stanice atypické'}}
             ]},
-          {path: 'transformer', component: TransformerEnComponent},
-          {path: 'switchgear', component: SwitchgearEnComponent},
-          {path: 'feedthrough', component: FeedthroughEnComponent},
+          {path: 'transformer', component: TransformerCzComponent, data: {title: 'Transformátory'}},
+          {path: 'switchgear', component: SwitchgearCzComponent, data: {title: 'Rozvaděče'}},
+          {path: 'feedthrough', component: FeedthroughCzComponent, data: {title: 'Průchodky'}},
+        ]}
+    ]},
+  {path: 'en', component: EnComponent, data: {title: 'Armes - Home'}, children: [
+      {path: 'home', component: HomeEnComponent, data: {title: 'Armes - Home'}},
+      {path: 'about', component: AboutEnComponent, data: {title: 'About'}},
+      {path: 'realizations', component: RealizationsEnComponent, data: {title: 'Realizations'}},
+      {path: 'contact', component: ContactEnComponent, data: {title: 'Contact'}},
+      {path: 'offer', component: OfferEnComponent, data: {title: 'Offer'},  children: [
+          {path: 'housing', component: HousingEnComponent, data: {title: 'Transformer Housing'}, children: [
+              {path: 'inside', component: InsideEnComponent, data: {title: 'Internal service  transformer housing'}},
+              {path: 'outside', component: OutsideEnComponent, data: {title: 'External service transformer housing'}},
+              {path: 'special', component: SpecialEnComponent, data: {title: 'Atypical transformer housing'}}
+            ]},
+          {path: 'transformer', component: TransformerEnComponent, data: {title: 'Transformers'}},
+          {path: 'switchgear', component: SwitchgearEnComponent, data: {title: 'Switchgears'}},
+          {path: 'feedthrough', component: FeedthroughEnComponent, data: {title: 'Hauff Technik sealing system'}},
         ]}
     ]},
   {path: '', redirectTo: 'pl/home', pathMatch: 'full'},

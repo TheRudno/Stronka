@@ -11,8 +11,9 @@ export class CzComponent implements OnInit {
   constructor(public router: Router, private route: ActivatedRoute) { }
 
   ngOnInit() {
-    console.log(this.router.url);
-    this.router.navigate(['home'], {relativeTo: this.route, skipLocationChange: true});
+      if (this.router.url === '/cz') {
+        this.router.navigate(['home'], {relativeTo: this.route, skipLocationChange: true});
+      }
   }
 
 

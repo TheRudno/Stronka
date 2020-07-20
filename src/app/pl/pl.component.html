@@ -1,12 +1,12 @@
 
 <div class="container-fluid" style="padding: 0; background-color: #f1f4fa;">
   <app-header></app-header>
-  <div *ngIf="router.url !== '/pl'">
+  <div *ngIf="router.url !== '/pl/home'">
     <app-header-footer></app-header-footer>
-    <div class="row">
-      <div class="col-md-12">
-        <router-outlet></router-outlet>
-      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <router-outlet></router-outlet>
     </div>
   </div>
 </div>

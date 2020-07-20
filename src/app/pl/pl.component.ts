@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import {Component, OnInit} from '@angular/core';
+import {ActivatedRoute, Router} from '@angular/router';
 
 @Component({
   selector: 'app-pl',
@@ -8,10 +8,13 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class PlComponent implements OnInit {
 
-  constructor(public router: Router, private route: ActivatedRoute) { }
+  constructor(public router: Router, private route: ActivatedRoute) {
+  }
 
   ngOnInit() {
-    this.router.navigate(['home'], {relativeTo: this.route, skipLocationChange: true});
+    if (this.router.url === '/pl') {
+      this.router.navigate(['home'], {relativeTo: this.route, skipLocationChange: true});
+    }
   }
 
 }

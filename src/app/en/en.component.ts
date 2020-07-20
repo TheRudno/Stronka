@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import {Component, OnInit} from '@angular/core';
+import {ActivatedRoute, Router} from '@angular/router';
 
 @Component({
   selector: 'app-cz',
@@ -8,12 +8,13 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class EnComponent implements OnInit {
 
-  constructor(public router: Router, private route: ActivatedRoute) { }
-
-  ngOnInit() {
-    console.log(this.router.url);
-    this.router.navigate(['home'], {relativeTo: this.route, skipLocationChange: true});
+  constructor(public router: Router, private route: ActivatedRoute) {
   }
 
+  ngOnInit() {
+    if (this.router.url === '/en') {
+      this.router.navigate(['home'], {relativeTo: this.route, skipLocationChange: true});
+    }
+  }
 
 }
