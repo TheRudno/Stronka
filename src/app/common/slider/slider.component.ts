@@ -9,10 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SliderComponent implements OnInit {
   images = [
-    'assets/images/carousel/3.jpg',
-    'assets/images/carousel/4.jpg',
-    'assets/images/carousel/5.jpg',
-    'assets/images/carousel/6.jpg'
+    'assets/images/carousel/3.webp',
+    'assets/images/carousel/4.webp',
+    'assets/images/carousel/5.webp',
+    'assets/images/carousel/6.webp'
     ];
   constructor(config: NgbCarouselConfig) {
     // customize default values of carousels used by this component tree

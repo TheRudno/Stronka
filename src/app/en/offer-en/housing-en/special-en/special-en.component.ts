@@ -12,34 +12,34 @@ export class SpecialEnComponent implements OnInit {
   public albums: Array<{ src: string, caption: string, thumb: string }> = [];
 
   constructor(public lightbox: Lightbox, public router: Router) {
-    let src = './assets/images/housing/special/1.jpg';
+    let src = './assets/images/housing/special/1.webp';
     let caption = '';
-    let thumb = './assets/images/housing/special/thumb/1.jpg';
+    let thumb = './assets/images/housing/special/thumb/1.webp';
     let album = {src, caption, thumb};
     this.albums.push(album);
-    src = '../assets/images/housing/special/4.jpg';
+    src = '../assets/images/housing/special/4.webp';
     caption = '';
-    thumb = './assets/images/housing/special/thumb/4.jpg';
+    thumb = './assets/images/housing/special/thumb/4.webp';
     album = {src, caption, thumb};
     this.albums.push(album);
-    src = './assets/images/housing/special/3.jpg';
+    src = './assets/images/housing/special/3.webp';
     caption = '';
-    thumb = './assets/images/housing/special/thumb/3.jpg';
+    thumb = './assets/images/housing/special/thumb/3.webp';
     album = {src, caption, thumb};
     this.albums.push(album);
-    src = './assets/images/housing/special/2.jpg';
+    src = './assets/images/housing/special/2.webp';
     caption = '';
-    thumb = './assets/images/housing/special/thumb/2.jpg';
+    thumb = './assets/images/housing/special/thumb/2.webp';
     album = {src, caption, thumb};
     this.albums.push(album);
-    src = './assets/images/housing/special/5.jpg';
+    src = './assets/images/housing/special/5.webp';
     caption = '';
-    thumb = './assets/images/housing/special/thumb/5.jpg';
+    thumb = './assets/images/housing/special/thumb/5.webp';
     album = {src, caption, thumb};
     this.albums.push(album);
-    src = './assets/images/housing/special/6.jpg';
+    src = './assets/images/housing/special/6.webp';
     caption = '';
-    thumb = './assets/images/housing/special/thumb/6.jpg';
+    thumb = './assets/images/housing/special/thumb/6.webp';
     album = {src, caption, thumb};
     this.albums.push(album);
   }

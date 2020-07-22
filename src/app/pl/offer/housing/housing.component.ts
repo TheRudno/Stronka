@@ -13,19 +13,19 @@ export class HousingComponent implements OnInit {
   public albums: Array<{ src: string, caption: string, thumb: string }> = [];
 
   constructor(public lightbox: Lightbox, public router: Router) {
-    let src = '../../../assets/images/housing/1.JPG';
+    let src = '../../../assets/images/housing/1.webp';
     let caption = 'ARMES-W';
-    let thumb = '../../../assets/images/housing/thumb/1.JPG';
+    let thumb = '../../../assets/images/housing/thumb/1.webp';
     let album = {src, caption, thumb};
     this.albums.push(album);
-    src = '../../../assets/images/housing/2.jpg';
+    src = '../../../assets/images/housing/2.webp';
     caption = 'ARMES-Z';
-    thumb = '../../../assets/images/housing/thumb/2.jpg';
+    thumb = '../../../assets/images/housing/thumb/2.webp';
     album = {src, caption, thumb};
     this.albums.push(album);
-    src = '../../../assets/images/housing/3.jpg';
+    src = '../../../assets/images/housing/3.webp';
     caption = 'ARMES-S';
-    thumb = '../../../assets/images/housing/thumb/3.jpg';
+    thumb = '../../../assets/images/housing/thumb/3.webp';
     album = {src, caption, thumb};
     this.albums.push(album);
   }

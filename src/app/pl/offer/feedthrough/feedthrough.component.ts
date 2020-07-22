@@ -12,19 +12,19 @@ export class FeedthroughComponent implements OnInit {
   public albums: Array<{ src: string, caption: string, thumb: string }> = [];
 
   constructor(public lightbox: Lightbox, public router: Router) {
-    let src = '../../../assets/images/feedthrough/3.jpg';
+    let src = '../../../assets/images/feedthrough/3.webp';
     let caption = 'Przepust HSI 150';
-    let thumb = '../../../assets/images/feedthrough/thumb/3.jpg';
+    let thumb = '../../../assets/images/feedthrough/thumb/3.webp';
     let album = {src, caption, thumb};
     this.albums.push(album);
-    src = '../../../assets/images/feedthrough/2.jpg';
+    src = '../../../assets/images/feedthrough/2.webp';
     caption = 'Uszczelniacz HSI 150/D3';
-    thumb = '../../../assets/images/feedthrough/thumb/2.jpg';
+    thumb = '../../../assets/images/feedthrough/thumb/2.webp';
     album = {src, caption, thumb};
     this.albums.push(album);
-    src = '../../../assets/images/feedthrough/1.jpg';
+    src = '../../../assets/images/feedthrough/1.webp';
     caption = 'Przepust uziemiający HEA';
-    thumb = '../../../assets/images/feedthrough/thumb/1.jpg';
+    thumb = '../../../assets/images/feedthrough/thumb/1.webp';
     album = {src, caption, thumb};
     this.albums.push(album);
   }

@@ -90,8 +90,8 @@ const routes: Routes = [
           {path: 'feedthrough', component: FeedthroughEnComponent, data: {title: 'Hauff Technik sealing system'}},
         ]}
     ]},
-  {path: '', redirectTo: 'pl/home', pathMatch: 'full'},
-  {path: '**', redirectTo: 'pl/home', pathMatch: 'full'}
+  {path: '', redirectTo: 'cz/home', pathMatch: 'full'},
+  {path: '**', redirectTo: 'cz/home', pathMatch: 'full'}
 ];
 
 @NgModule({

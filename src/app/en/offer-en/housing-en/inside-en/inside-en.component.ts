@@ -12,19 +12,19 @@ export class InsideEnComponent implements OnInit {
   public albums: Array<{ src: string, caption: string, thumb: string }> = [];
 
   constructor(public lightbox: Lightbox, public router: Router) {
-    let src = './assets/images/housing/inside/1.jpg';
+    let src = './assets/images/housing/inside/1.webp';
     let caption = '';
-    let thumb = './assets/images/housing/inside/thumb/1.jpg';
+    let thumb = './assets/images/housing/inside/thumb/1.webp';
     let album = {src, caption, thumb};
     this.albums.push(album);
-    src = './assets/images/housing/inside/2.jpg';
+    src = './assets/images/housing/inside/2.webp';
     caption = '';
-    thumb = './assets/images/housing/inside/thumb/2.jpg';
+    thumb = './assets/images/housing/inside/thumb/2.webp';
     album = {src, caption, thumb};
     this.albums.push(album);
-    src = './assets/images/housing/inside/3.jpg';
+    src = './assets/images/housing/inside/3.webp';
     caption = '';
-    thumb = './assets/images/housing/inside/thumb/3.jpg';
+    thumb = './assets/images/housing/inside/thumb/3.webp';
     album = {src, caption, thumb};
     this.albums.push(album);
   }
